@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="suit 1" >
+
+    <listeners>
+        <listener class-name="org.testng.reporters.XMLReporter" />
+        <listener class-name="org.testng.reporters.JUnitXMLReporter" />
+        <listener class-name="org.testng.reporters.EmailableReporter2" />
+        <listener class-name="org.testng.reporters.FailedReporter" />
+        <listener class-name="ACMEproject.Utility.TestListener"/>
+
+    </listeners>
+
+    <test name="ACME">
+        <classes>
+            <class name="ACMEproject.Tests.LoginModule.LoginTestCases"/>
+            <class name="ACMEproject.Tests.UserOptions.UserOptionsTestCases"/>
+        </classes>
+    </test>
+
+    <!--<test name="XYZ">
+        <classes>lu7yoo0ppp
+            <class name="corejava.testng.Assignment1"/>
+        </classes>
+    </test>-->
+
+</suite>

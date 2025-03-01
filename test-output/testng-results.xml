@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-26T22:13:34 IST" name="suit 1" finished-at="2025-02-26T22:13:49 IST" duration-ms="15180">
+    <groups>
+    </groups>
+    <test started-at="2025-02-26T22:13:34 IST" name="ACME" finished-at="2025-02-26T22:13:49 IST" duration-ms="15180">
+      <class name="ACMEproject.Tests.LoginModule.LoginTestCases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ACMEproject.Tests.LoginModule.LoginTestCases@556d0826]" started-at="2025-02-26T22:12:56 IST" name="setUp" finished-at="2025-02-26T22:13:34 IST" duration-ms="38349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkloginsuccessfully()[pri:1, instance:ACMEproject.Tests.LoginModule.LoginTestCases@556d0826]" started-at="2025-02-26T22:13:35 IST" name="checkloginsuccessfully" finished-at="2025-02-26T22:13:49 IST" duration-ms="13969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkloginsuccessfully -->
+      </class> <!-- ACMEproject.Tests.LoginModule.LoginTestCases -->
+    </test> <!-- ACME -->
+  </suite> <!-- suit 1 -->
+</testng-results>
