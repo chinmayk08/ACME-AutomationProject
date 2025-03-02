@@ -21,7 +21,7 @@ public class ExecutionDriver extends PropertyKey {
     public void setUp() {
         try {
             Properties properties = new Properties();
-            try (FileInputStream inputStream = new FileInputStream("C:\\Users\\Acer\\IdeaProjects\\ACMEproject\\src\\main\\java\\ACMEproject\\Utility\\Testdata.properties")) {
+            try (FileInputStream inputStream = new FileInputStream("C:\\Users\\Acer\\IdeaProjects\\ACME-AutomationProject\\src\\main\\java\\ACMEproject\\Utility\\Testdata.properties")) {
                 properties.load(inputStream);
 
 

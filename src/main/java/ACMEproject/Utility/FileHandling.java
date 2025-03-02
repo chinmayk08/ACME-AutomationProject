@@ -34,6 +34,4 @@ public class FileHandling {
             Object[][] dataArray=new Object[dataList.size()][];
             return dataList.toArray(dataArray);
         }
-
     }
-
