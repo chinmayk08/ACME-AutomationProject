@@ -10,6 +10,7 @@
         <listener class-name="org.testng.reporters.EmailableReporter2" />
         <listener class-name="org.testng.reporters.FailedReporter" />
         <listener class-name="ACMEproject.Utility.TestListener"/>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg" />
 
     </listeners>
 

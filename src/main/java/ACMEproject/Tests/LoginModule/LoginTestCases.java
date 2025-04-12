@@ -8,7 +8,6 @@ import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Description;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeClass;
@@ -78,25 +77,23 @@ public class LoginTestCases extends ExecutionDriver {
     @Severity(SeverityLevel.BLOCKER)
     @Description("CHECK REGISTRATION FORM FILL")
     @Test(priority = 3,alwaysRun = true)
-    public void checkRegisrtation(){
+    public void checkRegisrtation() {
         try {
             // check email not register without captcha
             logger.info("running test case checkRegisrtation starts....");
-            ExpectedResult="Register";
+            ExpectedResult = "Register";
             login.RegisterEmail();
-            ActualResult=wait.until(ExpectedConditions.visibilityOf(LoginPage.RegisterHeader)).getText();
+            ActualResult = wait.until(ExpectedConditions.visibilityOf(LoginPage.RegisterHeader)).getText();
             login.screenshot("checkRegisrtation");
-            try{
+            try {
                 assertEquals(ActualResult, ExpectedResult, "The Result is not as expected.");
                 logger.info("checkRegisrtation(priority = 3) test case passed");
             } catch (AssertionError e) {
-                logger.error("checkRegisrtation(priority = 3) test case Failed..Expected: "+ExpectedResult+"Actual:"+ActualResult);
+                logger.error("checkRegisrtation(priority = 3) test case Failed..Expected: " + ExpectedResult + "Actual:" + ActualResult);
                 throw e;
             }
-        }
-        catch (Exception e){
-            logger.error("Error occurred during checkRegisrtation Test(priority = 3):"+e);
+        } catch (Exception e) {
+            logger.error("Error occurred during checkRegisrtation Test(priority = 3):" + e);
         }
     }
-
 }

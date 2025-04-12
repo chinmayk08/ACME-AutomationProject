@@ -52,16 +52,15 @@ public class Login extends ExecutionDriver {
         for (int i=0; i<EmailValues.length;i++) {
             String Email=EmailValues[i].trim();
             String Pass=passwordValues[i].trim();
-
             LoginPage.Email.clear();
             LoginPage.Email.sendKeys(Email);
-
             LoginPage.Password.clear();
             LoginPage.Password.sendKeys(Pass);
-
             LoginPage.Loginbtn.click();
         }
     }
+
+
 
     public void RegisterEmail(){
         String NewEmailValue = properties.getProperty(NEWEMAIL_KEY);
@@ -72,7 +71,7 @@ public class Login extends ExecutionDriver {
         LoginPage.Password.sendKeys(NewpasswordValue);
         LoginPage.retypePassword.sendKeys(NewpasswordValue);
         LoginPage.AgreetermsCheckbox.click();
-        LoginPage.Registerbtn.click();
+        //LoginPage.Registerbtn.click();
 
     }
 

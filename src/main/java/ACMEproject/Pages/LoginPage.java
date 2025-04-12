@@ -42,7 +42,7 @@ public class LoginPage {
     public WebElement CaptchaCheckbox; //I am not robot captcha check box
 
     @FindBy(xpath = "//h1[starts-with(text(),'Welcome,')]")
-    public static WebElement RegisterHeader; //chack header after register email(header text)
+    public static WebElement HeaderText; //chack header (header text)
 
     @FindBy(xpath = "//button[@class='btn btn-primary']")
     public static WebElement Registerbtn; // registration save button
@@ -50,11 +50,8 @@ public class LoginPage {
     @FindBy(xpath = "//a[text()='Log In']")
     public static WebElement LogIn;  // Login button
 
-    @FindBy(xpath = "(//button[@class='btn btn-default btn-lg dropdown-toggle'])[1]")
-    public static WebElement UserOptionMenu; //user option button
-
-    @FindBy(xpath = "//a[text()='Download Client and Support']")
-    public static WebElement DownloadClientandSupportMenu;
+    @FindBy(xpath = "//h1[@class='page-header']")
+    public static WebElement RegisterHeader; //Header text of register page
 
 
 
