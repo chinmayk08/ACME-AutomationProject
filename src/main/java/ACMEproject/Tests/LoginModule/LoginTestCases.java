@@ -74,6 +74,9 @@ public class LoginTestCases extends ExecutionDriver {
             logger.error("Error occurred during checkInvalidLoginCred Test(priority = 2):"+e);
         }
     }
+
+
+
     @Severity(SeverityLevel.BLOCKER)
     @Description("CHECK REGISTRATION FORM FILL")
     @Test(priority = 3,alwaysRun = true)
