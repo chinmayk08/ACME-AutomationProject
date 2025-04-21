@@ -18,8 +18,8 @@
 
     <test name="ACME">
         <classes>
-            <class name="ACMEproject.Tests.LoginModule.LoginTestCases"/>
-            <class name="ACMEproject.Tests.UserOptions.UserOptionsTestCases"/>
+            <class name="ACMEproject.Tests.LoginTestCases"/>
+            <class name="ACMEproject.Tests.UserOptionsTestCases"/>
         </classes>
     </test>
 

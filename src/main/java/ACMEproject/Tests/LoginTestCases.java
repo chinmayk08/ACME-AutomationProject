@@ -1,4 +1,4 @@
-package ACMEproject.Tests.LoginModule;
+package ACMEproject.Tests;
 
 import ACMEproject.BusinessLib.Login;
 import ACMEproject.Framework.ExecutionDriver;
@@ -52,6 +52,7 @@ public class LoginTestCases extends ExecutionDriver {
             logger.error("Error occurred during checkloginsuccessfully test case..."+e);
         }
     }
+
     @Severity(SeverityLevel.BLOCKER)
     @Description("CHECK INVALID LOGIN CREDENTIALS")
     @Test(priority = 2,alwaysRun = true)
