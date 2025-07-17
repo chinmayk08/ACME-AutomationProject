@@ -1,4 +1,4 @@
-package ACMEproject.Tests;
+package Tests;
 
 import ACMEproject.BusinessLib.Login;
 import ACMEproject.BusinessLib.UserOption;
