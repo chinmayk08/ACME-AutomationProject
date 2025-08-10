@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"CHECK REGISTRATION FORM FILL","5441","checkRegisrtation","suit 1","Sat Mar 29 18:04:32 IST 2025","passed","Sat Mar 29 18:04:38 IST 2025","ACMEproject.Tests.LoginTestCases","ACME","ACMEproject.Tests.LoginTestCases","checkRegisrtation"
+"CHECK Download Client and Support Menu Open SUCCESSFULLY","2735","checkDownloadClientandSupportMenu","suit 1","Sat Mar 29 18:04:45 IST 2025","passed","Sat Mar 29 18:04:47 IST 2025","ACMEproject.Tests.UserOptionsTestCases","ACME","ACMEproject.Tests.UserOptionsTestCases","checkDownloadClientandSupportMenu"
+"CHECK INVALID LOGIN CREDENTIALS","11673","checkInvalidLoginCred","suit 1","Sat Mar 29 18:04:21 IST 2025","passed","Sat Mar 29 18:04:32 IST 2025","ACMEproject.Tests.LoginTestCases","ACME","ACMEproject.Tests.LoginTestCases","checkInvalidLoginCred"
+"CHECK LOGIN SUCCESSFULLY","5868","checkloginsuccessfully","suit 1","Sat Mar 29 18:04:15 IST 2025","passed","Sat Mar 29 18:04:21 IST 2025","ACMEproject.Tests.LoginTestCases","ACME","ACMEproject.Tests.LoginTestCases","checkloginsuccessfully"

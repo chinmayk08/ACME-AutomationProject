@@ -3,6 +3,7 @@ package ACMEproject.BusinessLib;
 import ACMEproject.Framework.ExecutionDriver;
 import ACMEproject.Pages.LoginPage;
 import ACMEproject.Pages.UseroptionsPage;
+import ACMEproject.Utility.FileHandling;
 import io.qameta.allure.Attachment;
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
@@ -24,7 +25,6 @@ import java.util.Properties;
 
 public class UserOption extends ExecutionDriver {
     public static final Logger logger= LogManager.getLogger(Login.class);
-
     public static WebDriver wd;
     public UseroptionsPage useroptionsPage;
     public static int screenshotcount = 0;
@@ -45,6 +45,10 @@ public class UserOption extends ExecutionDriver {
         WebElement DownloadclientsupportMeu=useroptionsPage.DownloadClientandSupportMenu;
         action.moveToElement(useroptionMenu).perform();
         action.moveToElement(DownloadclientsupportMeu).click().perform();
+
+    }
+    public void DownloadLegacySystemreport(){
+        useroptionsPage.LegSysDouwnloadbtn.click();
 
     }
 

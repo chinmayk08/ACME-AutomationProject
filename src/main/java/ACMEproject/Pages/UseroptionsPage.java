@@ -15,14 +15,15 @@ public class UseroptionsPage {
     }
 
     @FindBy(xpath = "(//button[@class='btn btn-default btn-lg dropdown-toggle'])[1]")
-    public static WebElement UserOptionMenu; //user option button
+    public  WebElement UserOptionMenu; //user option button
 
     @FindBy(xpath = "//a[text()='Download Client and Support']")
-    public static WebElement DownloadClientandSupportMenu;
+    public  WebElement DownloadClientandSupportMenu;
 
     @FindBy(xpath = "//h1[@class='page-header']")
-    public static WebElement pageHeader; // login dashboard header
+    public  WebElement pageHeader; // login dashboard header
 
-
+    @FindBy (xpath = "//a[text()='Download']")
+    public WebElement LegSysDouwnloadbtn; // legacy button download
 
 }

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-10T17:08:50 IST" name="suit 1" finished-at="2025-08-10T17:09:23 IST" duration-ms="33048">
+    <groups>
+    </groups>
+    <test started-at="2025-08-10T17:08:50 IST" name="ACME" finished-at="2025-08-10T17:09:23 IST" duration-ms="33048">
+      <class name="Tests.UserOptionsTestCases">
+        <test-method is-config="true" signature="UserOptionsTestCasesSetup()[pri:0, instance:Tests.UserOptionsTestCases@64dafeed]" started-at="2025-08-10T17:09:13 IST" name="UserOptionsTestCasesSetup" finished-at="2025-08-10T17:09:19 IST" duration-ms="6533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserOptionsTestCasesSetup -->
+        <test-method signature="checkDownloadClientandSupportMenu()[pri:1, instance:Tests.UserOptionsTestCases@64dafeed]" started-at="2025-08-10T17:09:19 IST" name="checkDownloadClientandSupportMenu" finished-at="2025-08-10T17:09:22 IST" duration-ms="2901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDownloadClientandSupportMenu -->
+        <test-method signature="CheckDownloadLegacySystemreport()[pri:2, instance:Tests.UserOptionsTestCases@64dafeed]" started-at="2025-08-10T17:09:22 IST" name="CheckDownloadLegacySystemreport" finished-at="2025-08-10T17:09:23 IST" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckDownloadLegacySystemreport -->
+      </class> <!-- Tests.UserOptionsTestCases -->
+      <class name="Tests.LoginTestCases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTestCases@13c3c1e1]" started-at="2025-08-10T17:08:40 IST" name="setUp" finished-at="2025-08-10T17:08:50 IST" duration-ms="9362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setuptest()[pri:0, instance:Tests.LoginTestCases@13c3c1e1]" started-at="2025-08-10T17:08:50 IST" name="setuptest" finished-at="2025-08-10T17:08:51 IST" duration-ms="1209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuptest -->
+        <test-method signature="checkloginsuccessfully()[pri:1, instance:Tests.LoginTestCases@13c3c1e1]" started-at="2025-08-10T17:08:51 IST" name="checkloginsuccessfully" finished-at="2025-08-10T17:08:57 IST" duration-ms="5619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkloginsuccessfully -->
+        <test-method signature="checkInvalidLoginCred()[pri:2, instance:Tests.LoginTestCases@13c3c1e1]" started-at="2025-08-10T17:08:57 IST" name="checkInvalidLoginCred" finished-at="2025-08-10T17:09:09 IST" duration-ms="12068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInvalidLoginCred -->
+        <test-method signature="checkRegisrtation()[pri:3, instance:Tests.LoginTestCases@13c3c1e1]" started-at="2025-08-10T17:09:09 IST" name="checkRegisrtation" finished-at="2025-08-10T17:09:13 IST" duration-ms="4075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRegisrtation -->
+      </class> <!-- Tests.LoginTestCases -->
+    </test> <!-- ACME -->
+  </suite> <!-- suit 1 -->
+</testng-results>
